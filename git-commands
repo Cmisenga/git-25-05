@@ -1,0 +1,24 @@
+git --version
+mkdir git-25-05
+cd git-25-05/
+git init
+ls -la
+cd .git
+ls -l
+cd ..
+python3 --version
+nano first-code.py
+python3 first-code.py
+git status
+git add first-code.py
+git status
+git config --global user.name "vikas99341"
+git config --global user.email "vikasisinlove@gmail.com"
+git config --list
+git commit -m "First commit to python code "
+
+git branch -M main
+git remote add origin https://github.com/vikas99341/git-25-05.git
+git push -u origin main
+
+Generate the personal access token from setting -- > developer setting -- > personal access token -- save 
